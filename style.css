@@ -1,0 +1,389 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #222222;
+    width: 100%;
+    box-sizing: border-box;
+}
+.navbar-coffee{
+    background-color: #0e0e0e;
+}
+/* .nav-link{
+    color: white !important;
+} */
+a.nav-link{
+    padding: 0 !important;
+}
+.nav-item{
+    margin: 8px;
+}
+.nav-item.active{
+    border-bottom: 2px solid #deaa87;
+}
+.navbar-right{
+    text-align: right;
+}
+
+.navbar-text.city a{
+    margin-right: 1rem;
+    color: #5b5b5b;
+}
+
+/* banner */
+.home-banner{
+    background: url('img/bannerC.jpg') center center no-repeat;
+    color: white;
+}
+.banner{
+    /* background-color: #333333; */
+    background-size: cover;
+    height: 100vh;
+}
+.banner.home-banner h1{
+    /* margin-top: 10rem; */
+    padding-top: 10rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.banner p{
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 2rem 0;
+}
+.gold-button{
+    background-color: #deaa87;
+    color: #1a1a1a;
+    padding: .5rem 2rem;
+    border: 2px solid #1a1a1a;
+    outline: 3px solid #deaa87;
+}
+.gold-button:hover{
+    text-decoration: none;
+    background-color: #ffc9a4;
+    color: #1a1a1a;
+    outline: 3px solid #ffc9a4;
+}
+.gold-link{
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #deaa87 !important;
+}
+.gold-link:hover{
+    color: #deaa87 !important;
+}
+
+.banner-social-media{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    height: 50vh;
+}
+.banner i{
+    padding: .5rem 0;
+    font-size: 2.5rem;
+    color: white;
+}
+.banner i:hover{
+    color: rgba(255, 255, 255, 0.708);
+}
+
+/* кофейня */
+#coffee-restaurant{
+    text-align: center;
+    background-color: #f4e3d7 !important;
+}
+#coffee-restaurant h2{
+    margin: 3.5rem auto 1rem;
+    padding: .5rem 0;
+    border-bottom: 2px solid #803300;
+    width: 9rem;
+}
+#coffee-restaurant p{
+    font-size: 1.3rem;
+    width: 80%;
+    margin: 1rem auto 1rem;
+}
+#coffee-restaurant i{
+    color: #803300;
+    font-size: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+
+/*  */
+#souvenirs{
+    background: url('img/andy-falconer-dwQRixazu9I-unsplash.jpg') center center no-repeat;
+    background-size: cover;
+    background-color: #333333;
+    text-align: right;
+    height: 95vh;
+}
+#souvenirs h2{
+    color: white;
+    margin: 10rem 0px 2rem auto;
+    padding: .5rem 0;
+    border-bottom: 2px solid #deaa87;
+    width: 20.5rem;
+}
+#souvenirs p{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 300;
+    text-shadow: 5px 5px 10px black;
+    margin: 0 0 1rem auto;
+    width: 50%;
+}
+.overlay{
+    background-color: rgba(19, 19, 19, 0.906);
+    height: 95vh;
+    /* background-image: linear-gradient(to right, #0e0e0e4c, rgba(19, 19, 19, 0.906)); */
+}
+.overlay-right{
+    /* background-color: #0e0e0e87; */
+    height: 95vh;
+    background-image: linear-gradient(to right, #0e0e0e4c, rgba(19, 19, 19, 0.906));
+}
+.overlay-left{
+    height: 95vh;
+    background-image: linear-gradient(to left, #0e0e0e4c, rgba(19, 19, 19, 0.906));
+}
+
+/* _____________ Мастер-классы _____________________ */
+#workshops{
+    text-align: center;
+    background: url('img/bennerBG.png') center center no-repeat;
+    background-size: cover;
+    padding-bottom: 3rem;
+}
+#workshops h2{
+    text-align: center;
+    margin: 2.5rem auto 1rem auto;
+    padding: .5rem 0;
+    border-bottom: 2px solid #deaa87;
+    width: 20.5rem;
+    color: white;
+}
+#handmade-product p, #workshops p{
+    color: white;
+    font-weight: 300;
+}
+#workshops p{
+    font-size: 1.2rem;
+    text-align: center;
+    width: 80%;
+    margin: 0 auto 2rem;
+}
+#workshops h3{
+    color: white;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 1rem;    
+}
+.work-s {
+    margin-bottom: 3rem;
+}
+.work-s>a.gold-link{
+    margin-top: 2rem;
+}
+.circle-img{
+    margin: auto;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.circle-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*____________ материалы для творчества____________  */
+#handmade-product{
+    background: url('img/rachael-gorjestani-X6CZGpJBi8U-unsplash.jpg') top center no-repeat;
+    background-size: cover;
+    height: 95vh;
+}
+#handmade-product h2{
+    color: white;
+    margin-top: 10rem;
+    border-bottom: 2px solid #deaa87;
+    width: 15rem;
+    padding: .5rem 0;
+}
+#handmade-product p{
+    width: 45%;
+    font-size: 1.3rem;
+}
+
+/* _______________ Map ____________ */
+#map-section{
+    background: url('img/drew-coffman-Azli_kcxRNE-unsplash.jpg') center center no-repeat;
+    background-size: cover;
+    height: 95vh;
+    text-align: center;
+}
+#map-section h2{
+    text-align: center;
+    color: white;
+    margin: 3.5rem auto 1rem;
+    padding: .5rem 0;
+    border-bottom: 2px solid #deaa87;
+    width: 25rem;
+}
+#map-section p{
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 300;
+}
+.map-container{
+    /* background-color: #803300; */
+    /* margin: 2rem 0;   */
+    width: 100%; 
+    height: 50vh;
+}
+.copyright{
+    margin-top: 1rem;
+    text-align: center;
+    color: #5b5b5b;
+}
+
+/*_______________________ Подвал ____________________ */
+footer{
+    background-color: #1a1a1a;
+    padding: 2.5rem;
+}
+.footer-row{
+    display: flex;
+    justify-content: center;
+}
+.footer-other-links, .footer-nav-menu{
+    padding-left: 3rem;
+}
+.contact-info, .footer-social-media{
+    padding-right: 3rem;
+}
+
+.footer-nav-menu ul, .footer-other-links ul{
+    list-style: none;
+    padding: 0%;
+}
+.footer-nav-menu a, .footer-other-links a{
+    color: white;
+}
+.contact-info p{
+    color: white;
+
+}
+.footer-logo{
+    flex-grow: 1;
+}
+footer img{
+    display: block;
+    height: 130px;
+    margin: 0 auto;
+}
+
+.footer-social-media{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-social-media i{
+    padding: 0 0 .5rem;
+    font-size: 2rem;
+    color: white;
+}
+
+/* адаптив */
+@media(min-width: 992px){
+    .map-container{
+        width: 80%;
+        height: 60vh;
+        margin: 0 auto;
+    }
+}
+
+@media(max-width: 992px){
+    .nav-item.active{
+        border-bottom: none;
+    }
+    .nav-item.active a.nav-link{
+        color: #deaa87 !important;
+    }
+    /* banner */
+    .col-md-6.d-flex.justify-content-end{
+        /* отключаем соц сети в баннее на моб виде */
+        display: none !important;
+    }
+    .contact-info, .footer-social-media{
+        padding-right: 1rem;
+        /* background-color: aqua; */
+    }
+    
+}
+@media(max-width: 670px){
+    #souvenirs p, #coffee-restaurant p, #handmade-product p{
+        width: 100%;
+    }
+    #workshops h3{
+        margin-bottom: 4rem;
+    }
+    .map-container{
+        height: 70vh;
+    }
+    #map-section h2{
+        width: 100%;
+    }
+    #map-section, .overlay{
+        height: 110vh;
+    }
+
+    .footer-nav-menu, .footer-other-links{
+        width: 50%;
+    }
+    .footer-logo, .logo-container{
+        width: 100%;
+    }
+    .contact-info{
+        width: 70%;
+    }
+    .logo-container{
+        margin: 3rem 0;
+    }
+    .footer-nav-menu, .footer-other-links{
+        padding-left: 3rem;
+    }
+
+    .banner.home-banner{
+        background: url('img/small_banner.jpg') right center no-repeat;
+        background-color: #333333;
+        background-size: cover;
+        color: white;
+        
+    }
+    /* .banner h1{
+        font-size: 2.5rem;
+        margin-top: 5rem;
+    } */
+    .banner.home-banner h1{
+        margin-top: 0em;
+        padding-top: 5rem;
+        font-size: 2.5rem;
+
+    }
+    .banner p{
+        font-size: 1.3rem;
+        /* margin: 1rem 0; */
+    }
+    .overlay-right{
+        background-image: linear-gradient(to left, #0e0e0e4c, rgba(19, 19, 19, 0.906));
+    }
+    #souvenirs{
+        text-align: left;
+    }
+    #souvenirs h2{
+        margin: 7rem 0 2rem;
+    }
+}
