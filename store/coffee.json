@@ -1,9 +1,0 @@
-{
-    "coffee": [{"id": "1", "name": "Капучино", "model": "200 ml", "price": "100 р.", "image": "kapuchino.png"},
-            {"id": "2", "name": "Американо", "model": "200 ml", "price": "70 р.", "image": "americano.png"},
-            {"id": "3", "name": "Латте", "model": "200 ml", "price": "110 р.", "image": "latte.png"},
-            {"id": "4", "name": "Раф", "model": "300 ml", "price": "130 р.", "image": "raf.png"},
-            {"id": "5", "name": "Флэт Вайт", "model": "150 ml", "price": "90 р.", "image": "flatWhite.png"},
-            {"id": "6", "name": "Эспрессо", "model": "70 ml", "price": "60 р.", "image": "espresso.png"},
-            {"id": "7", "name": "Рестретто", "model": "35 ml", "price": "60 р.", "image": "buiskit1.png"}]
-}
