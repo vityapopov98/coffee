@@ -459,7 +459,7 @@ footer img{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background: url('../img/bennerBG.png') center center no-repeat;
+    background: url('img/bennerBG.png') center center no-repeat;
     background-size: cover;
     background-color: #222222b4;
 }
@@ -474,7 +474,7 @@ footer img{
 #buy{
     height: 100vh;
     padding-top: 1rem;
-    background: url('../img/bennerBG.png') center center no-repeat;
+    background: url('img/bennerBG.png') center center no-repeat;
     background-size: cover;
     background-color: #222222b4;
 }
