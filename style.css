@@ -387,3 +387,146 @@ footer img{
         margin: 7rem 0 2rem;
     }
 }
+
+/* STORE */
+
+.store-banner{
+    /* background: url('../img/takahiro-sakamoto-shtslUvi64Y-unsplash.jpg') center bottom no-repeat; */
+    /* background-size: cover; */
+    padding: 0;
+    margin-top: 0em;
+    position: absolute;
+    bottom: 5rem;
+    left: 0rem;
+    width: 100%;
+}
+.banner-img-container{
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;   
+}
+.banner-img-container>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.store-banner h1{
+    margin-top: 2rem;
+    padding-top: 10rem;
+    color: white;
+}
+.store-banner p{
+    color: white;
+    margin: 0 0 2rem;
+}
+.overlay-left-store{
+    height: 100vh;
+    width: 100%;
+    margin: 5rem -3rem;
+    padding: 3rem 0rem 0rem 10rem;
+    background-image: linear-gradient(to left, #0e0e0e00, #21212174 );
+    /*  rgba(255, 247, 235, 0.66)   #4141417b*/
+}
+.myBtn{
+    background-color: #deaa87 !important;
+    color: #0e0e0e !important;
+    border: none !important;
+}
+.myBtn:hover{
+    background-color: #be9173 !important;
+    color: #0e0e0e !important;
+}
+.btn-secondary{
+    background-color: darkgray !important;
+    border: none !important;
+    color: #6d6d6d !important;
+}
+.product-place{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.coffee{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: url('../img/bennerBG.png') center center no-repeat;
+    background-size: cover;
+    background-color: #222222b4;
+}
+
+.smallImg{
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+
+#buy{
+    height: 100vh;
+    padding-top: 1rem;
+    background: url('../img/bennerBG.png') center center no-repeat;
+    background-size: cover;
+    background-color: #222222b4;
+}
+.buyWindow{
+    margin-top: 5rem;
+    padding: 5rem 10rem;
+    background-color: #f4e3d7;
+}
+hr{
+    border: none; /* РЈР±РёСЂР°РµРј РіСЂР°РЅРёС†Сѓ РґР»СЏ Р±СЂР°СѓР·РµСЂР° Firefox */
+    color: #803300; /* Р¦РІРµС‚ Р»РёРЅРёРё РґР»СЏ РѕСЃС‚Р°Р»СЊРЅС‹С… Р±СЂР°СѓР·РµСЂРѕРІ */
+    background-color: #803300; /* Р¦РІРµС‚ Р»РёРЅРёРё РґР»СЏ Р±СЂР°СѓР·РµСЂР° Firefox Рё Opera */
+    /* height: 5rem; РўРѕР»С‰РёРЅР° Р»РёРЅРёРё */
+    
+}
+
+#cartButton{
+    cursor: pointer;
+    padding-left: 1rem;
+}
+
+/* extensions */
+.card{
+    background-color: none !important;
+    border: none !important;
+}
+.card-body{
+    background-color: #f4e3d7;
+}
+.card-text{
+margin-bottom: .7rem;
+}
+.card-img-top{
+    background-color: #f4e3d7;
+}
+
+
+@media(max-width: 670px){
+    .store-banner h1{
+        margin-top: 2rem;
+        padding-top: 6rem;
+        color: white;
+    }
+    .overlay-left-store{
+        padding: 3rem 0rem 0rem 5rem;
+    }
+    input.form-control{
+        width: auto;
+        width: -webkit-fill-available;
+        margin: .5rem auto;
+    }
+    .buyWindow{
+        padding: 2rem;
+    }
+}
